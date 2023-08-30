@@ -6,7 +6,7 @@
 ғɪʀsᴛ ғᴏʀᴋ ᴛʜɪs ʀᴇᴘᴏ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀ ᴛᴏ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀɴᴅ ᴇᴅɪᴛ ʀᴇᴀᴅᴍᴇ.ᴍᴅ ғɪʟᴇ ᴇɴᴛᴇʀ ʏᴏᴜʀ ғᴏʀᴋᴇᴅ ᴜʀʟ ʀᴇᴘᴏ ʟɪɴᴋ✨
 
 
-[![ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/iVINGSTYLE/BANALL)
+[![ʜᴇʀᴏᴋᴜ](https://www.heroku.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/iVINGSTYLE/BANALL)
 
 
 
@@ -18,11 +18,9 @@
 ## ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/AnonymousX1025/AnonXMusic/blob/master/sample.env)
+- Get your Necessary Variables.
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
-- Install Ffmpeg by :
-`sudo apt-get install python3-pip ffmpeg -y`
 - Install required packages by :
 `sudo apt-get install python3-pip -y`
 - Install pip by :
