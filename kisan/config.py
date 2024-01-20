@@ -1,9 +1,11 @@
+# Author Vivan 
+
+
 import os
 from os import getenv
 
 class config:
     BOT_TOKEN = getenv("BOT_TOKEN", None)
-    STRING_SESSION = getenv("STRING_SESSION", None)
     API_HASH= getenv('API_HASH')
     API_ID=int(getenv('API_ID'))
         
