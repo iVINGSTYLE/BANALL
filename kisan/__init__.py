@@ -40,7 +40,7 @@ reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "★ᴅᴇᴠᴇʟᴏᴘᴇʀ★", url=f"https://t.me/bikashbikash")
+                        "Onwer", url=f"https://t.me/{OWNER}")
                 ]
                 
            ]
