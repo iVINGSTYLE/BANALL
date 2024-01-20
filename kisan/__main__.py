@@ -1,5 +1,5 @@
 from pyrogram import idle
-from kisan import Config
+from kisan import config
 from kisan import bot
 
 bot.start()
