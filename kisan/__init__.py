@@ -14,7 +14,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
-if Config.BOT_TOKEN:
+if config.BOT_TOKEN:
   @bot.on_message(filters.command("banall"))
   async def _(bot, msg):
     print("getting memebers from {}".format(msg.chat.id))
@@ -30,7 +30,7 @@ if Config.BOT_TOKEN:
     print("process completed")
 
 
-if Config.BOT_TOKEN:
+if config.BOT_TOKEN:
   @bot.on_message(filters.command(["start"]))
   async def hello(bot, message):
     await message.reply_photo(photo=f"https://telegra.ph/file/fff2ee6f504bc061cb7d3.jpg",
