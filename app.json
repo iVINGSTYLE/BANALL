@@ -10,7 +10,7 @@
             "required": true
         },
         "OWNER": {
-            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "description": "ᴛʏᴘᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @ ʟɪᴋᴇ ʙɪᴋᴀsʜʜᴀʟᴅᴇʀ",
             "required": true,
             "value": "Bikashhalder"
         },
