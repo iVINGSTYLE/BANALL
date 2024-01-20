@@ -6,8 +6,10 @@ from os import getenv
 
 class config:
     BOT_TOKEN = getenv("BOT_TOKEN", None)
+    OWNER = getenv("OWNER", None)
     API_HASH= getenv('API_HASH')
     API_ID=int(getenv('API_ID'))
+    
         
     if not API_HASH:
         raise ValueError("API_HASH not set")
