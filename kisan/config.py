@@ -1,7 +1,7 @@
 import os
 from os import getenv
 
-class Config:
+class config:
     BOT_TOKEN = getenv("BOT_TOKEN", None)
     STRING_SESSION = getenv("STRING_SESSION", None)
     API_HASH= getenv('API_HASH')
