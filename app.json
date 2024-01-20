@@ -4,11 +4,15 @@
     "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
     "keywords": ["ᴋɪsᴀɴ-ʀᴀᴠɪ", "ʙᴀɴ-ᴀʟʟ"],
     "repository": "https://github.com/iVINGSTYLE/BANALL",
-  "stack": "container",
     "env": {
         "BOT_TOKEN": {
             "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
             "required": true
+        },
+        "OWNER": {
+            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "required": true,
+            "value": "Bikashhalder"
         },
         "API_HASH": {
             "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
@@ -21,5 +25,10 @@
             "value": ""
         }
 
-    }
-  }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ]
+ }
