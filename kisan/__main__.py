@@ -1,8 +1,16 @@
 from pyrogram import idle
 from kisan import config
-from kisan import bot
+from kisan import app
 
-bot.start()
+
+# pyrogram client
+app = Client(
+          "banall",
+          api_id=API_ID,
+          api_hash=API_HASH,
+          bot_token=BOT_TOKEN,
+)
+
+app.start()
 print("Bot Booted Successfully")
 idle()
-bot.stop()
