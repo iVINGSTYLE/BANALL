@@ -1,9 +1,11 @@
 from pyrogram import idle
 from kisan import config
+from pyrogram import Client
+
 
 
 # pyrogram client
-app = client(
+app = Client(
           "banall",
           api_id=API_ID,
           api_hash=API_HASH,
