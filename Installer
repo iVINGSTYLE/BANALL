@@ -1,6 +1,2 @@
-asyncio
-pyaes
 tgcrypto
 pyrogram
-pysocks
-python-dotenv
