@@ -1,5 +1,5 @@
 from pyrogram import idle
-from kisan import config
+from kisan import config, app
 from pyrogram import Client
 
 
