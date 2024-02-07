@@ -1,12 +1,11 @@
-
 {
     "name": "ʙᴀɴ ᴀʟʟ",
     "description": "sɪᴍᴘʟᴇ ʙᴏᴛ ᴛᴏ ʙᴀɴ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴡʜᴏʟᴇ ᴄʜᴀᴛs",
     "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
     "keywords": ["ᴋɪsᴀɴ-ʀᴀᴠɪ", "ʙᴀɴ-ᴀʟʟ"],
     "repository": "https://github.com/iVINGSTYLE/BANALL",
-  "stack": "container",
-  "env": {
+    "stack": "container",
+    "env": {
         "BOT_TOKEN": {
             "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
             "required": true
@@ -14,7 +13,7 @@
         "OWNER": {
             "description": "ᴛʏᴘᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @ ʟɪᴋᴇ ʙɪᴋᴀsʜʜᴀʟᴅᴇʀ",
             "required": true,
-            "value": "Bikashhalder"
+            "value": "bikashbikash"
         },
         "API_HASH": {
             "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
@@ -26,5 +25,19 @@
             "required": true,
             "value": ""
         }
-    }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "eco"
+          }
+      }
  }
