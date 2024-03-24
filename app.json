@@ -13,7 +13,7 @@
         "OWNER": {
             "description": "ᴛʏᴘᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @ ʟɪᴋᴇ ʙɪᴋᴀsʜʜᴀʟᴅᴇʀ",
             "required": true,
-            "value": "bikashbikash"
+            "value": ""
         },
         "API_HASH": {
             "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
