@@ -9,7 +9,7 @@
 [![ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/iVINGSTYLE/BANALL)
 
 
-
+starting image - https://graph.org/file/2f679f038d093f726c5f6.jpg
 
 ## sɪᴍᴘʟᴇ ᴜsᴀɢᴇ!
 
