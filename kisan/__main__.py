@@ -12,10 +12,10 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 # config vars
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER = os.getenv("OWNER")
+API_ID = int(os.getenv("16743442"))
+API_HASH = os.getenv("12bbd720f4097ba7713c5e40a11dfd2a")
+BOT_TOKEN = os.getenv("6330964987:AAGGGM2iz-2hTmZLkiigTQgTCHMPePRC6AY")
+OWNER = os.getenv("6115850050")
 
 # pyrogram client
 app = Client(
